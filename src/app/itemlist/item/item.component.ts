@@ -8,4 +8,8 @@ import { Item } from './item.model';
 })
 export class ItemComponent {
     @Input() item: Item;
+
+    gift() {
+        alert(`gifting ${this.item.name}`);
+    }
 }

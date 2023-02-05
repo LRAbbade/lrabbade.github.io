@@ -1,6 +1,6 @@
 img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 400px;
+    max-height: 400px;
     width: auto;
     height: auto;
     margin-right: 20px;
@@ -16,11 +16,19 @@ div {
 }
 
 .price::before {
-    content: "R$";
+    content: "R$ ";
 }
 
 .price {
     font-size: 22px;
     color: #333;
     font-weight: bold;
+}
+
+.text-content {
+    padding: 20px;
+}
+
+.btn {
+    margin: 0px 50px;
 }

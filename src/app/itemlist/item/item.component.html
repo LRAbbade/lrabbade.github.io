@@ -4,10 +4,19 @@
             <td>
                 <img [src]="item.image">
             </td>
-            <td>
+            <td class="text-content">
                 <h3>{{ item.name }}</h3>
                 <p>{{ item.description }}</p>
-                <span class="price">{{ item.priceStr }}</span>
+                <table>
+                    <tr>
+                        <td>
+                            <span class="price">{{ item.priceStr }}</span>
+                        </td>
+                        <td>
+                            <button class="btn btn-secondary" (click)="gift()">Presentear</button>
+                        </td>
+                    </tr>
+                </table>
             </td>
         </tr>
     </table>
