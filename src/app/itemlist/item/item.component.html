@@ -21,7 +21,20 @@
         </tr>
         <tr *ngIf="!isRowHidden" class="pay-row">
             <td><qrcode [qrdata]="pixKey" [width]="256" [errorCorrectionLevel]="'M'"></qrcode></td>
-            <td>Muito obrigado bla bla bla, qr code aqui</td>
+            <div class="d-flex align-items-center pix-div">
+                <table>
+                    <tr>
+                        <td class="pix-text">
+                            <span>
+                                Muito obrigado bla bla bla, qr code aqui
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <button class="btn btn-secondary" (click)="copyPix()">Pix Copia e Cola</button>
+                    </tr>
+                </table>
+            </div>
         </tr>
     </table>
 </div>

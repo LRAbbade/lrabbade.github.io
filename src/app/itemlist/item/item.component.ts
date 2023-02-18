@@ -1,6 +1,7 @@
 import { Component, ElementRef, EventEmitter, Input, Output, Renderer2, ViewChild } from '@angular/core';
 import { Item } from './item.model';
 import { QrCodePix } from 'qrcode-pix';
+import { Clipboard } from '@angular/cdk/clipboard';
 
 export interface SelectedItem {
     item: Item;
@@ -21,7 +22,8 @@ export class ItemComponent {
     pixKey = '';
 
     constructor(
-        private elementRef: ElementRef
+        private elementRef: ElementRef,
+        private clipboard: Clipboard
     ) {}
 
     gift() {
@@ -41,5 +43,9 @@ export class ItemComponent {
             value: this.item.price,
         });
         return qrCodePix.payload();
+    }
+
+    copyPix() {
+        this.clipboard.copy(this.pixKey);
     }
 }
