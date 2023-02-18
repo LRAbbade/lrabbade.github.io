@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" #itemContainer>
     <table>
         <tr>
             <td>
@@ -18,6 +18,10 @@
                     </tr>
                 </table>
             </td>
+        </tr>
+        <tr *ngIf="!isRowHidden" class="pay-row">
+            <td><qrcode [qrdata]="pixKey" [width]="256" [errorCorrectionLevel]="'M'"></qrcode></td>
+            <td>Muito obrigado bla bla bla, qr code aqui</td>
         </tr>
     </table>
 </div>

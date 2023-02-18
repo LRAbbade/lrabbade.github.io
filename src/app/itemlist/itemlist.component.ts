@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SelectedItem } from './item/item.component';
 import { Item } from './item/item.model';
 
 @Component({
@@ -12,4 +13,11 @@ export class ItemlistComponent {
         new Item('Test 2', 'test description 2', 'http://shorturl.at/jm027', 12.00),
         new Item('Test 3', 'test description 3', 'http://shorturl.at/azEOZ', 20.20),
     ];
+
+    constructor() {}
+
+    onItemClicked(itemRef: SelectedItem) {
+        itemRef.ref?.nativeElement.scrollIntoView({ behavior: 'smooth' });
+        console.log(itemRef.item);
+    }
 }
