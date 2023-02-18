@@ -53,6 +53,6 @@ export class ItemComponent {
         this.copyPixText = 'Copiado!';
         setTimeout(() => {
             this.showIcon = false;
-        }, 1000);
+        }, 2000);
     }
 }
