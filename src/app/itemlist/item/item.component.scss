@@ -50,3 +50,24 @@ div {
 .pix-text {
     padding: 20px;
 }
+
+/* Hide the clipboard icon by default */
+.clipboard-icon {
+    display: none;
+}
+
+/* Show the clipboard icon when the showIcon property is true */
+.clipboard-icon.show-icon {
+    display: inline-block;
+    animation: fade-out 1s;
+}
+
+/* Define the fade-in animation */
+@keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.btn {
+    margin-right: 10px !important;
+}

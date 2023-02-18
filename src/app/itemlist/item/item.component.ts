@@ -20,6 +20,8 @@ export class ItemComponent {
 
     isRowHidden = true;
     pixKey = '';
+    showIcon = false;
+    copyPixText = 'Pix Copia e Cola';
 
     constructor(
         private elementRef: ElementRef,
@@ -47,5 +49,10 @@ export class ItemComponent {
 
     copyPix() {
         this.clipboard.copy(this.pixKey);
+        this.showIcon = true;
+        this.copyPixText = 'Copiado!';
+        setTimeout(() => {
+            this.showIcon = false;
+        }, 1000);
     }
 }

@@ -31,7 +31,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <button class="btn btn-secondary" (click)="copyPix()">Pix Copia e Cola</button>
+                        <button class="btn btn-secondary" (click)="copyPix()">{{ copyPixText }}</button>
+                        <span class="clipboard-icon" [ngClass]="{ 'show-icon': showIcon }"><i class="fas fa-clipboard-check"></i></span>
                     </tr>
                 </table>
             </div>
