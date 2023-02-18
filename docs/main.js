@@ -124,7 +124,7 @@ HeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__[
   selectors: [["app-header"]],
   decls: 6,
   vars: 0,
-  consts: [[1, "jumbotron"], ["src", "assets/banner2.png", 1, "mx-auto", "d-block"], [1, "text"]],
+  consts: [[1, "jumbotron"], ["src", "assets/banner2.png", 1, "mx-auto", "d-block", "banner"], [1, "text"]],
   template: function HeaderComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -137,7 +137,7 @@ HeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
     }
   },
-  styles: [".text[_ngcontent-%COMP%] {\n  font-weight: normal !important;\n  margin: 20px 0px;\n}\n\n.jumbotron[_ngcontent-%COMP%] {\n  padding: 20px;\n}\n\nh1[_ngcontent-%COMP%] {\n  text-align: center;\n  margin: 20px 0px 50px 0px;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDhCQUFBO0VBQ0EsZ0JBQUE7QUFDSjs7QUFFQTtFQUNJLGFBQUE7QUFDSjs7QUFFQTtFQUNJLGtCQUFBO0VBQ0EseUJBQUE7QUFDSiIsInNvdXJjZXNDb250ZW50IjpbIi50ZXh0IHtcbiAgICBmb250LXdlaWdodDogbm9ybWFsICFpbXBvcnRhbnQ7XG4gICAgbWFyZ2luOiAyMHB4IDBweDtcbn1cblxuLmp1bWJvdHJvbiB7XG4gICAgcGFkZGluZzogMjBweDtcbn1cblxuaDEge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBtYXJnaW46IDIwcHggMHB4IDUwcHggMHB4O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */"]
+  styles: [".text[_ngcontent-%COMP%] {\n  font-weight: normal !important;\n  margin: 20px 0px;\n}\n\n.jumbotron[_ngcontent-%COMP%] {\n  padding: 20px;\n}\n\nh1[_ngcontent-%COMP%] {\n  text-align: center;\n  margin: 20px 0px 50px 0px;\n}\n\n.banner[_ngcontent-%COMP%] {\n  margin-bottom: 50px;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDhCQUFBO0VBQ0EsZ0JBQUE7QUFDSjs7QUFFQTtFQUNJLGFBQUE7QUFDSjs7QUFFQTtFQUNJLGtCQUFBO0VBQ0EseUJBQUE7QUFDSjs7QUFFQTtFQUNJLG1CQUFBO0FBQ0oiLCJzb3VyY2VzQ29udGVudCI6WyIudGV4dCB7XG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbCAhaW1wb3J0YW50O1xuICAgIG1hcmdpbjogMjBweCAwcHg7XG59XG5cbi5qdW1ib3Ryb24ge1xuICAgIHBhZGRpbmc6IDIwcHg7XG59XG5cbmgxIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgbWFyZ2luOiAyMHB4IDBweCA1MHB4IDBweDtcbn1cblxuLmJhbm5lciB7XG4gICAgbWFyZ2luLWJvdHRvbTogNTBweDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */"]
 });
 
 /***/ }),
