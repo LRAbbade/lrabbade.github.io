@@ -170,35 +170,34 @@ const _c1 = function (a0) {
     "show-icon": a0
   };
 };
-function ItemComponent_tr_19_Template(rf, ctx) {
+function ItemComponent_div_14_Template(rf, ctx) {
   if (rf & 1) {
-    const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "tr", 7)(1, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "qrcode", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 9)(4, "table")(5, "tr")(6, "td", 10)(7, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, " Muito obrigado pelo presente! Utilize o QR Code ao lado para fazer um PIX ou pressione o bot\u00E3o abaixo para utilizar o PIX copia e cola. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "tr")(10, "button", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ItemComponent_tr_19_Template_button_click_10_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r3);
-      const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r2.copyPix());
+    const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "qrcode", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div")(3, "div", 10)(4, "table")(5, "tr")(6, "td")(7, "div", 11)(8, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, " Muito obrigado pelo presente! Utilize o QR Code ao lado para fazer um PIX ou pressione o bot\u00E3o abaixo para utilizar o PIX copia e cola. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "tr")(11, "td")(12, "div", 11)(13, "button", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ItemComponent_div_14_Template_button_click_13_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r2);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r1.copyPix());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "span", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](13, "i", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "span", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](16, "i", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()()()();
   }
   if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("qrdata", ctx_r1.pixKey)("width", 256)("errorCorrectionLevel", "M");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r1.copyPixText);
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](5, _c1, ctx_r1.showIcon));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("qrdata", ctx_r0.pixKey)("width", 256)("errorCorrectionLevel", "M");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx_r0.copyPixText);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](5, _c1, ctx_r0.showIcon));
   }
 }
 class ItemComponent {
@@ -261,47 +260,47 @@ ItemComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["�
   outputs: {
     click: "click"
   },
-  decls: 20,
+  decls: 15,
   vars: 5,
-  consts: [[1, "container"], ["itemContainer", ""], [3, "src"], [1, "text-content"], [1, "price"], [1, "btn", "btn-secondary", 3, "click"], ["class", "pay-row", 4, "ngIf"], [1, "pay-row"], [3, "qrdata", "width", "errorCorrectionLevel"], [1, "d-flex", "align-items-center", "pix-div"], [1, "pix-text"], [1, "clipboard-icon", 3, "ngClass"], [1, "fas", "fa-clipboard-check"]],
+  consts: [[1, "item-container"], [1, "image-container"], [3, "src"], [1, "description-container"], [1, "payment-details"], [1, "price"], [1, "btn", "btn-secondary", 3, "click"], ["class", "pay-row", 4, "ngIf"], [1, "pay-row"], [3, "qrdata", "width", "errorCorrectionLevel"], [1, "d-flex", "align-items-center", "pix-div"], [1, "description-container", "payment-details"], [1, "btn", "btn-secondary", "pix-copy-btn", 3, "click"], [1, "clipboard-icon", 3, "ngClass"], [1, "fas", "fa-clipboard-check"]],
   template: function ItemComponent_Template(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0, 1)(2, "table")(3, "tr")(4, "td");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "img", 2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 2);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "td", 3)(7, "h3");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 3)(4, "h3");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 4)(9, "span", 5);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "table")(12, "tr")(13, "td")(14, "span", 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "td")(17, "button", 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ItemComponent_Template_button_click_17_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "span")(12, "button", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ItemComponent_Template_button_click_12_listener() {
         return ctx.gift();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](18, "Presentear");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](19, ItemComponent_tr_19_Template, 14, 7, "tr", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, "Presentear");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](14, ItemComponent_div_14_Template, 17, 7, "div", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     }
     if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ctx.item.image, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.item.name);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.item.description);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.item.priceStr);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.isRowHidden);
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_3__.NgIf, angularx_qrcode__WEBPACK_IMPORTED_MODULE_4__.QRCodeComponent],
-  styles: ["img[_ngcontent-%COMP%] {\n  max-width: 400px;\n  max-height: 400px;\n  width: auto;\n  height: auto;\n  margin-right: 20px;\n}\n\ndiv[_ngcontent-%COMP%] {\n  box-shadow: 2px 2px 10px #ccc;\n  margin: 20px 0px;\n}\n\n.container[_ngcontent-%COMP%] {\n  padding: 0px;\n}\n\n.price[_ngcontent-%COMP%]::before {\n  content: \"R$ \";\n}\n\n.price[_ngcontent-%COMP%] {\n  font-size: 22px;\n  color: #333;\n  font-weight: bold;\n}\n\n.text-content[_ngcontent-%COMP%] {\n  padding: 20px;\n}\n\n.btn[_ngcontent-%COMP%] {\n  margin: 0px 50px;\n}\n\n.pay-row[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n  .qrcode {\n  display: flex;\n  justify-content: center;\n}\n\n.pix-div[_ngcontent-%COMP%] {\n  box-shadow: none !important;\n  height: 30vh;\n}\n\n.pix-text[_ngcontent-%COMP%] {\n  padding: 20px;\n}\n\n\n.clipboard-icon[_ngcontent-%COMP%] {\n  display: none;\n}\n\n\n.clipboard-icon.show-icon[_ngcontent-%COMP%] {\n  display: inline-block;\n  animation: _ngcontent-%COMP%_fade-out 2s;\n}\n\n\n@keyframes _ngcontent-%COMP%_fade-out {\n  from {\n    opacity: 1;\n  }\n  to {\n    opacity: 0;\n  }\n}\n.btn[_ngcontent-%COMP%] {\n  margin-right: 10px !important;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvaXRlbWxpc3QvaXRlbS9pdGVtLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksZ0JBQUE7RUFDQSxpQkFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7QUFDSjs7QUFFQTtFQUNJLDZCQUFBO0VBQ0EsZ0JBQUE7QUFDSjs7QUFFQTtFQUNJLFlBQUE7QUFDSjs7QUFFQTtFQUNJLGNBQUE7QUFDSjs7QUFFQTtFQUNJLGVBQUE7RUFDQSxXQUFBO0VBQ0EsaUJBQUE7QUFDSjs7QUFFQTtFQUNJLGFBQUE7QUFDSjs7QUFFQTtFQUNJLGdCQUFBO0FBQ0o7O0FBRUE7RUFDSSxXQUFBO0FBQ0o7O0FBRUE7RUFDSSxhQUFBO0VBQ0EsdUJBQUE7QUFDSjs7QUFFQTtFQUNJLDJCQUFBO0VBQ0EsWUFBQTtBQUNKOztBQUVBO0VBQ0ksYUFBQTtBQUNKOztBQUVBLHVDQUFBO0FBQ0E7RUFDSSxhQUFBO0FBQ0o7O0FBRUEsK0RBQUE7QUFDQTtFQUNJLHFCQUFBO0VBQ0Esc0JBQUE7QUFDSjs7QUFFQSxpQ0FBQTtBQUNBO0VBQ0k7SUFBTyxVQUFBO0VBRVQ7RUFERTtJQUFLLFVBQUE7RUFJUDtBQUNGO0FBRkE7RUFDSSw2QkFBQTtBQUlKIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcbiAgICBtYXgtd2lkdGg6IDQwMHB4O1xuICAgIG1heC1oZWlnaHQ6IDQwMHB4O1xuICAgIHdpZHRoOiBhdXRvO1xuICAgIGhlaWdodDogYXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6IDIwcHg7XG59XG5cbmRpdiB7XG4gICAgYm94LXNoYWRvdzogMnB4IDJweCAxMHB4ICNjY2M7XG4gICAgbWFyZ2luOiAyMHB4IDBweDtcbn1cblxuLmNvbnRhaW5lciB7XG4gICAgcGFkZGluZzogMHB4O1xufVxuXG4ucHJpY2U6OmJlZm9yZSB7XG4gICAgY29udGVudDogXCJSJCBcIjtcbn1cblxuLnByaWNlIHtcbiAgICBmb250LXNpemU6IDIycHg7XG4gICAgY29sb3I6ICMzMzM7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi50ZXh0LWNvbnRlbnQge1xuICAgIHBhZGRpbmc6IDIwcHg7XG59XG5cbi5idG4ge1xuICAgIG1hcmdpbjogMHB4IDUwcHg7XG59XG5cbi5wYXktcm93IHtcbiAgICB3aWR0aDogMTAwJTtcbn1cblxuOjpuZy1kZWVwIC5xcmNvZGUge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbi5waXgtZGl2IHtcbiAgICBib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7XG4gICAgaGVpZ2h0OiAzMHZoO1xufVxuXG4ucGl4LXRleHQge1xuICAgIHBhZGRpbmc6IDIwcHg7XG59XG5cbi8qIEhpZGUgdGhlIGNsaXBib2FyZCBpY29uIGJ5IGRlZmF1bHQgKi9cbi5jbGlwYm9hcmQtaWNvbiB7XG4gICAgZGlzcGxheTogbm9uZTtcbn1cblxuLyogU2hvdyB0aGUgY2xpcGJvYXJkIGljb24gd2hlbiB0aGUgc2hvd0ljb24gcHJvcGVydHkgaXMgdHJ1ZSAqL1xuLmNsaXBib2FyZC1pY29uLnNob3ctaWNvbiB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIGFuaW1hdGlvbjogZmFkZS1vdXQgMnM7XG59XG5cbi8qIERlZmluZSB0aGUgZmFkZS1pbiBhbmltYXRpb24gKi9cbkBrZXlmcmFtZXMgZmFkZS1vdXQge1xuICAgIGZyb20geyBvcGFjaXR5OiAxOyB9XG4gICAgdG8geyBvcGFjaXR5OiAwOyB9XG59XG5cbi5idG4ge1xuICAgIG1hcmdpbi1yaWdodDogMTBweCAhaW1wb3J0YW50O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */"]
+  styles: [".item-container[_ngcontent-%COMP%] {\n  display: table-caption;\n  flex-direction: column;\n  margin: 10px;\n  box-shadow: 2px 2px 10px #ccc;\n}\n\n.image-container[_ngcontent-%COMP%] {\n  position: relative;\n  display: block;\n  width: 400px; \n  height: auto;\n}\n\n.image-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  max-width: 100%;\n}\n\n.description-container[_ngcontent-%COMP%] {\n  display: block;\n  flex: 1 1 auto;\n  top: 0;\n  left: 0;\n  width: 100%;\n  text-align: justify;\n  padding: 15px 15px 0px 15px;\n}\n\np[_ngcontent-%COMP%] {\n  margin-bottom: 0px;\n}\n\n.price[_ngcontent-%COMP%]::before {\n  content: \"R$ \";\n}\n\n.price[_ngcontent-%COMP%] {\n  font-size: 22px;\n  color: #333;\n  font-weight: bold;\n}\n\n  .qrcode {\n  display: flex;\n  justify-content: center;\n}\n\n.pix-div[_ngcontent-%COMP%] {\n  box-shadow: none !important;\n  height: 30vh;\n}\n\n\n.clipboard-icon[_ngcontent-%COMP%] {\n  display: none;\n  margin-left: 10px;\n}\n\n\n.clipboard-icon.show-icon[_ngcontent-%COMP%] {\n  display: inline-block;\n  animation: _ngcontent-%COMP%_fade-out 2s;\n}\n\n\n@keyframes _ngcontent-%COMP%_fade-out {\n  from {\n    opacity: 1;\n  }\n  to {\n    opacity: 0;\n  }\n}\n.payment-details[_ngcontent-%COMP%] {\n  padding: 0px 15px;\n  display: flex;\n  justify-content: center;\n}\n\n.payment-details[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  margin: 15px 20px;\n}\n\n.pix-copy-btn[_ngcontent-%COMP%] {\n  margin-bottom: 15px;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvaXRlbWxpc3QvaXRlbS9pdGVtLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksc0JBQUE7RUFDQSxzQkFBQTtFQUNBLFlBQUE7RUFDQSw2QkFBQTtBQUNKOztBQUVBO0VBQ0ksa0JBQUE7RUFDQSxjQUFBO0VBQ0EsWUFBQSxFQUFBLG9DQUFBO0VBQ0EsWUFBQTtBQUNKOztBQUVBO0VBQ0ksZUFBQTtBQUNKOztBQUVBO0VBQ0ksY0FBQTtFQUNBLGNBQUE7RUFDQSxNQUFBO0VBQ0EsT0FBQTtFQUNBLFdBQUE7RUFDQSxtQkFBQTtFQUNBLDJCQUFBO0FBQ0o7O0FBRUE7RUFDSSxrQkFBQTtBQUNKOztBQUVBO0VBQ0ksY0FBQTtBQUNKOztBQUVBO0VBQ0ksZUFBQTtFQUNBLFdBQUE7RUFDQSxpQkFBQTtBQUNKOztBQUVBO0VBQ0ksYUFBQTtFQUNBLHVCQUFBO0FBQ0o7O0FBRUE7RUFDSSwyQkFBQTtFQUNBLFlBQUE7QUFDSjs7QUFFQSx1Q0FBQTtBQUNBO0VBQ0ksYUFBQTtFQUNBLGlCQUFBO0FBQ0o7O0FBRUEsK0RBQUE7QUFDQTtFQUNJLHFCQUFBO0VBQ0Esc0JBQUE7QUFDSjs7QUFFQSxpQ0FBQTtBQUNBO0VBQ0k7SUFBTyxVQUFBO0VBRVQ7RUFERTtJQUFLLFVBQUE7RUFJUDtBQUNGO0FBRkE7RUFDSSxpQkFBQTtFQUNBLGFBQUE7RUFDQSx1QkFBQTtBQUlKOztBQURBO0VBQ0ksaUJBQUE7QUFJSjs7QUFEQTtFQUNJLG1CQUFBO0FBSUoiLCJzb3VyY2VzQ29udGVudCI6WyIuaXRlbS1jb250YWluZXIge1xuICAgIGRpc3BsYXk6IHRhYmxlLWNhcHRpb247XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBtYXJnaW46IDEwcHg7XG4gICAgYm94LXNoYWRvdzogMnB4IDJweCAxMHB4ICNjY2M7XG59XG5cbi5pbWFnZS1jb250YWluZXIge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICB3aWR0aDogNDAwcHg7IC8qIHJlcGxhY2Ugd2l0aCB5b3VyIGRlc2lyZWQgd2lkdGggKi9cbiAgICBoZWlnaHQ6IGF1dG87XG59XG5cbi5pbWFnZS1jb250YWluZXIgaW1nIHtcbiAgICBtYXgtd2lkdGg6IDEwMCU7XG59XG5cbi5kZXNjcmlwdGlvbi1jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIGZsZXg6IDEgMSBhdXRvO1xuICAgIHRvcDogMDtcbiAgICBsZWZ0OiAwO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHRleHQtYWxpZ246IGp1c3RpZnk7XG4gICAgcGFkZGluZzogMTVweCAxNXB4IDBweCAxNXB4O1xufVxuXG5wIHtcbiAgICBtYXJnaW4tYm90dG9tOiAwcHg7XG59XG5cbi5wcmljZTo6YmVmb3JlIHtcbiAgICBjb250ZW50OiBcIlIkIFwiO1xufVxuXG4ucHJpY2Uge1xuICAgIGZvbnQtc2l6ZTogMjJweDtcbiAgICBjb2xvcjogIzMzMztcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuOjpuZy1kZWVwIC5xcmNvZGUge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbi5waXgtZGl2IHtcbiAgICBib3gtc2hhZG93OiBub25lICFpbXBvcnRhbnQ7XG4gICAgaGVpZ2h0OiAzMHZoO1xufVxuXG4vKiBIaWRlIHRoZSBjbGlwYm9hcmQgaWNvbiBieSBkZWZhdWx0ICovXG4uY2xpcGJvYXJkLWljb24ge1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgbWFyZ2luLWxlZnQ6IDEwcHg7XG59XG5cbi8qIFNob3cgdGhlIGNsaXBib2FyZCBpY29uIHdoZW4gdGhlIHNob3dJY29uIHByb3BlcnR5IGlzIHRydWUgKi9cbi5jbGlwYm9hcmQtaWNvbi5zaG93LWljb24ge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICBhbmltYXRpb246IGZhZGUtb3V0IDJzO1xufVxuXG4vKiBEZWZpbmUgdGhlIGZhZGUtaW4gYW5pbWF0aW9uICovXG5Aa2V5ZnJhbWVzIGZhZGUtb3V0IHtcbiAgICBmcm9tIHsgb3BhY2l0eTogMTsgfVxuICAgIHRvIHsgb3BhY2l0eTogMDsgfVxufVxuXG4ucGF5bWVudC1kZXRhaWxzIHtcbiAgICBwYWRkaW5nOiAwcHggMTVweDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuXG4ucGF5bWVudC1kZXRhaWxzIHNwYW4ge1xuICAgIG1hcmdpbjogMTVweCAyMHB4O1xufVxuXG4ucGl4LWNvcHktYnRuIHtcbiAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
 /***/ }),
@@ -346,11 +345,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function ItemlistComponent_li_1_Template(rf, ctx) {
+function ItemlistComponent_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "li")(1, "app-item", 1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function ItemlistComponent_li_1_Template_app_item_click_1_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "app-item", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function ItemlistComponent_div_1_Template_app_item_click_1_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r3);
       const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵresetView"](ctx_r2.onItemClicked($event));
@@ -365,7 +364,7 @@ function ItemlistComponent_li_1_Template(rf, ctx) {
 }
 class ItemlistComponent {
   constructor() {
-    this.items = [new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Tour guiada por Tokyo', 'Esta excursão de meio dia é a escolha ideal para viajantes com pouco tempo que visitam Tóquio. Evite o incômodo de navegar com um guia particular para levá-lo pela cidade. Uma vantagem do passeio é que você não perderá tempo indo a pontos turísticos que não lhe interessam, pois o trajeto pode ser customizado. Um exemplo de itinerário pode incluir o Templo Senso-ji em Asakusa, Shibuya Crossing, Rua Takeshita em Harajuku, Palácio Imperial e Jardim Nacional Shinjuku Gyoen.', 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/5b/3a/05.jpg', 476.84), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Ingressos para Universal Studios Japan', '#WEAREMARIO! Aqui vamos desfrutar do primeiro parque temático SUPER NINTENDO WORLD do mundo! Além das incríveis atrações de Harry Potter, Jurassic Park entre muitas outras do universo cinematográfico. ', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/33/49/48/super-nintendo-world.jpg?w=1200&h=-1&s=1', 660.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Tour Culinária Noturna em Shibuya', 'Experimente a comida e a cultura japonesa durante este passeio a pé pelo distrito de Shibuya, em Tóquio. Fuja das hordas de turistas enquanto come como um japonês local, provando pratos favoritos como \'okonomiyaki\' (panquecas de ovo salgadas), espetos de carne Wagyu e muito mais nos restaurantes e pontos de encontro fora dos roteiros mais conhecidos da área.', 'https://media.tacdn.com/media/attractions-splice-spp-674x446/07/a1/ed/e6.jpg', 969.76), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Ingressos para Tokyo Disneyland', 'Parque temático exótico e encantador, baseado nas histórias de Walt Disney foi o primeiro construído fora dos EUA, em 1983. É um destino obrigatório para os fãs do amado Mickey Mouse.', 'https://media2.tokyodisneyresort.jp/home/top/main/2023/02/mainR_01.jpg', 570.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Kart na Rua em Tokyo', 'Extremamente emocionante e uma experiência obrigatória quando você visita Tóquio no Japão. Imagine-se em um kart personalizado feito especificamente para realizar a experiência de kart de super-herói da vida real!', 'https://classic.exame.com/wp-content/uploads/2016/09/size_960_16_9_20151020-25144-104f4tu.jpg?quality=70&strip=info&w=920', 330.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Corrida Super GT3 em Suzuka + ingresso Suzuka Park MOTOPIA', 'Ingressos para corrida Super GT3 no autódromo de Suzuka e passeio no parque MOTOPIA', 'https://supergtworld.files.wordpress.com/2018/05/nismo_supergt_suzuka_17_38-1200x800-e1525729453572.jpg', 227.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('BlackPink in Concert Osaka', 'Show do BlackPink em Osaka', 'https://veja.abril.com.br/wp-content/uploads/2022/09/GettyImages-1143890227.jpg.jpg?quality=70&strip=info&w=1280&h=720&crop=1', 577.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Ghibli Park', 'Ingresso para visitar o parque do estúdio Ghibli', 'https://images.lifestyleasia.com/wp-content/uploads/sites/6/2022/01/28103919/Cropped-1643291802photo_SXM2022012700004666.jpg-1600x900.png?tr=w-1600', 77.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('teamLab Planets Tokyo', 'Museu de arte digital imersivo', 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/ea/a3/07.jpg', 123.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Jantar Kaiseki com Apresentação Geisha', 'Vista um quimono e saboreie um jantar kaiseki com vários pratos enquanto se diverte com uma apresentação de gueixa. Um anfitrião recebe você em um autêntico restaurante japonês em Tóquio durante esta experiência noturna de 3 horas. Acomode-se com um pequeno grupo enquanto são servidos pratos tradicionais e converse com as gueixas que são treinadas em dança, música e arte da comunicação.', 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/e4/fa/14.jpg', 1072.89), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Castelo De Hiroshima', 'Visita a recriação moderna do castelo de Hiroshima, destruído pela bomba atômica em 1945', 'https://www.japan-guide.com/g21/3042_21.jpg', 30.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Bar Crawling em Shinjuku', 'Mergulhar na rica vida noturna de Tóquio pode ser intimidante para os visitantes do Japão. Este passeio a pé privado pelo colorido distrito de Shinjuku, repleto de néon, promete uma autêntica experiência japonesa sem a barreira do idioma ou a preocupação com a etiqueta. Seu guia o levará a uma seleção de bares no Golden Gai e a Omoide Yokocho, onde você conhecerá os habitantes locais e aprenderá tudo sobre a cultura de bebida de Tóquio.', 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/bf/10/07.jpg', 407.58), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Tokyo Skytree', 'Visita na Tokyo Skytree, uma torre de transmissão e observação em Sumida, Tóquio. Em sua inauguração em 2011 era a torre mais alta do mundo, com 634 metros.', 'https://www.japan-guide.com/g18/3064_01a.jpg', 104.00)];
+    this.items = [new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Tour guiada por Tokyo', 'Esta excursão de meio dia é a escolha ideal para viajantes com pouco tempo que visitam Tóquio. Evite o incômodo de navegar com um guia particular para levá-lo pela cidade. Uma vantagem do passeio é que você não perderá tempo indo a pontos turísticos que não lhe interessam, pois o trajeto pode ser customizado. Um exemplo de itinerário pode incluir o Templo Senso-ji em Asakusa, Shibuya Crossing, Rua Takeshita em Harajuku, Palácio Imperial e Jardim Nacional Shinjuku Gyoen.', 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/5b/3a/05.jpg', 476.84), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Ingressos para Universal Studios Japan', '#WEAREMARIO! Aqui vamos desfrutar do primeiro parque temático SUPER NINTENDO WORLD do mundo! Além das incríveis atrações de Harry Potter, Jurassic Park entre muitas outras do universo cinematográfico. ', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/33/49/48/super-nintendo-world.jpg?w=1200&h=-1&s=1', 660.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Tour Culinária Noturna em Shibuya', 'Experimente a comida e a cultura japonesa durante este passeio a pé pelo distrito de Shibuya, em Tóquio. Fuja das hordas de turistas enquanto come como um japonês local, provando pratos favoritos como \'okonomiyaki\' (panquecas de ovo salgadas), espetos de carne Wagyu e muito mais nos restaurantes e pontos de encontro fora dos roteiros mais conhecidos da área.', 'https://media.tacdn.com/media/attractions-splice-spp-674x446/07/a1/ed/e6.jpg', 969.76), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Ingressos para Tokyo Disneyland', 'Parque temático exótico e encantador, baseado nas histórias de Walt Disney foi o primeiro construído fora dos EUA, em 1983. É um destino obrigatório para os fãs do amado Mickey Mouse.', 'https://media2.tokyodisneyresort.jp/home/top/main/2023/02/mainR_01.jpg', 570.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Kart na Rua em Tokyo', 'Extremamente emocionante e uma experiência obrigatória quando você visita Tóquio no Japão. Imagine-se em um kart personalizado feito especificamente para realizar a experiência de kart de super-herói da vida real!', 'https://classic.exame.com/wp-content/uploads/2016/09/size_960_16_9_20151020-25144-104f4tu.jpg?quality=70&strip=info&w=920', 330.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Corrida Super GT3 em Suzuka + ingresso Suzuka Park MOTOPIA', 'Ingressos para corrida Super GT3 no autódromo de Suzuka e passeio no parque MOTOPIA', 'https://supergtworld.files.wordpress.com/2018/05/nismo_supergt_suzuka_17_38-1200x800-e1525729453572.jpg', 227.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('BlackPink in Concert Osaka', 'Show do BlackPink em Osaka', 'https://veja.abril.com.br/wp-content/uploads/2022/09/GettyImages-1143890227.jpg.jpg?quality=70&strip=info&w=1280&h=720&crop=1', 577.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Ghibli Park', 'Ingresso para visitar o parque do estúdio Ghibli', 'https://images.lifestyleasia.com/wp-content/uploads/sites/6/2022/01/28103919/Cropped-1643291802photo_SXM2022012700004666.jpg-1600x900.png?tr=w-1600', 77.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('teamLab Planets Tokyo', 'Museu de arte digital imersivo', 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/ea/a3/07.jpg', 123.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Jantar Kaiseki com Apresentação Geisha', 'Vista um quimono e saboreie um jantar kaiseki com vários pratos enquanto se diverte com uma apresentação de gueixa. Um anfitrião recebe você em um autêntico restaurante japonês em Tóquio durante esta experiência noturna de 3 horas. Acomode-se com um pequeno grupo enquanto são servidos pratos tradicionais e converse com as gueixas que são treinadas em dança, música e arte da comunicação.', 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/e4/fa/14.jpg', 1072.89), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Castelo De Hiroshima', 'Visita a recriação moderna do castelo de Hiroshima, destruído pela bomba atômica em 1945.', 'https://www.japan-guide.com/g21/3042_21.jpg', 30.00), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Bar Crawling em Shinjuku', 'Mergulhar na rica vida noturna de Tóquio pode ser intimidante para os visitantes do Japão. Este passeio a pé privado pelo colorido distrito de Shinjuku, repleto de néon, promete uma autêntica experiência japonesa sem a barreira do idioma ou a preocupação com a etiqueta. Seu guia o levará a uma seleção de bares no Golden Gai e a Omoide Yokocho, onde você conhecerá os habitantes locais e aprenderá tudo sobre a cultura de bebida de Tóquio.', 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/bf/10/07.jpg', 407.58), new _item_item_model__WEBPACK_IMPORTED_MODULE_0__.Item('Tokyo Skytree', 'Visita na Tokyo Skytree, uma torre de transmissão e observação em Sumida, Tóquio. Em sua inauguração em 2011 era a torre mais alta do mundo, com 634 metros.', 'https://www.japan-guide.com/g18/3064_01a.jpg', 104.00)];
   }
   onItemClicked(itemRef) {
     itemRef.ref?.nativeElement.scrollIntoView({
@@ -382,11 +381,11 @@ ItemlistComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2_
   selectors: [["app-itemlist"]],
   decls: 2,
   vars: 1,
-  consts: [[4, "ngFor", "ngForOf"], [3, "item", "click"]],
+  consts: [[1, "item-container"], [4, "ngFor", "ngForOf"], [3, "item", "click"]],
   template: function ItemlistComponent_Template(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "ul");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, ItemlistComponent_li_1_Template, 2, 1, "li", 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, ItemlistComponent_div_1_Template, 2, 1, "div", 1);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     }
     if (rf & 2) {
@@ -395,7 +394,7 @@ ItemlistComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2_
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.NgForOf, _item_item_component__WEBPACK_IMPORTED_MODULE_1__.ItemComponent],
-  styles: ["ul[_ngcontent-%COMP%] {\n  list-style-type: none;\n  padding: 0px;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvaXRlbWxpc3QvaXRlbWxpc3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxxQkFBQTtFQUNBLFlBQUE7QUFDSiIsInNvdXJjZXNDb250ZW50IjpbInVsIHtcbiAgICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG4gICAgcGFkZGluZzogMHB4O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */"]
+  styles: [".item-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.item[_ngcontent-%COMP%] {\n  flex: 0 0 auto;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvaXRlbWxpc3QvaXRlbWxpc3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxhQUFBO0VBQ0EsZUFBQTtBQUNKOztBQUVBO0VBQ0ksY0FBQTtBQUNKIiwic291cmNlc0NvbnRlbnQiOlsiLml0ZW0tY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtd3JhcDogd3JhcDtcbn1cblxuLml0ZW0ge1xuICAgIGZsZXg6IDAgMCBhdXRvO1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
 /***/ }),
