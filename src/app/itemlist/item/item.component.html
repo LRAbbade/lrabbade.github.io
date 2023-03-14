@@ -1,41 +1,39 @@
-<div class="container" #itemContainer>
-    <table>
-        <tr>
-            <td>
-                <img [src]="item.image">
-            </td>
-            <td class="text-content">
-                <h3>{{ item.name }}</h3>
-                <p>{{ item.description }}</p>
-                <table>
-                    <tr>
-                        <td>
-                            <span class="price">{{ item.priceStr }}</span>
-                        </td>
-                        <td>
-                            <button class="btn btn-secondary" (click)="gift()">Presentear</button>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-        <tr *ngIf="!isRowHidden" class="pay-row">
-            <td><qrcode [qrdata]="pixKey" [width]="256" [errorCorrectionLevel]="'M'"></qrcode></td>
+<div class="item-container">
+    <div class="image-container">
+        <img [src]="item.image">
+    </div>
+    <div class="description-container">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+    </div>
+    <div class="payment-details">
+        <span class="price">{{ item.priceStr }}</span>
+        <span><button class="btn btn-secondary" (click)="gift()">Presentear</button></span>
+    </div>
+    <div *ngIf="!isRowHidden" class="pay-row">
+        <qrcode [qrdata]="pixKey" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+        <div>
             <div class="d-flex align-items-center pix-div">
                 <table>
                     <tr>
-                        <td class="pix-text">
-                            <span>
-                                Muito obrigado pelo presente! Utilize o QR Code ao lado para fazer um PIX ou pressione o botão abaixo para utilizar o PIX copia e cola.
-                            </span>
+                        <td>
+                            <div class="description-container payment-details">
+                                <span>
+                                    Muito obrigado pelo presente! Utilize o QR Code ao lado para fazer um PIX ou pressione o botão abaixo para utilizar o PIX copia e cola.
+                                </span>
+                            </div>
                         </td>
                     </tr>
                     <tr>
-                        <button class="btn btn-secondary" (click)="copyPix()">{{ copyPixText }}</button>
-                        <span class="clipboard-icon" [ngClass]="{ 'show-icon': showIcon }"><i class="fas fa-clipboard-check"></i></span>
+                        <td>
+                            <div class="description-container payment-details">
+                                <button class="btn btn-secondary pix-copy-btn" (click)="copyPix()">{{ copyPixText }}</button>
+                                <span class="clipboard-icon" [ngClass]="{ 'show-icon': showIcon }"><i class="fas fa-clipboard-check"></i></span>
+                            </div>
+                        </td>
                     </tr>
                 </table>
             </div>
-        </tr>
-    </table>
+        </div>
+    </div>
 </div>
