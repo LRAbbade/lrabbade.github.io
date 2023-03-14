@@ -176,7 +176,7 @@ function ItemComponent_div_14_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "qrcode", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div")(3, "div", 10)(4, "table")(5, "tr")(6, "td")(7, "div", 11)(8, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, " Muito obrigado pelo presente! Utilize o QR Code ao lado para fazer um PIX ou pressione o bot\u00E3o abaixo para utilizar o PIX copia e cola. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, " Muito obrigado pelo presente! Utilize o QR Code acima para fazer um PIX ou pressione o bot\u00E3o abaixo para utilizar o PIX copia e cola. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "tr")(11, "td")(12, "div", 11)(13, "button", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ItemComponent_div_14_Template_button_click_13_listener() {
