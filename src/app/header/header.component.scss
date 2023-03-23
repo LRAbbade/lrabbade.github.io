@@ -1,6 +1,8 @@
 .text {
     font-weight: normal !important;
     margin: 20px 0px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .jumbotron {
