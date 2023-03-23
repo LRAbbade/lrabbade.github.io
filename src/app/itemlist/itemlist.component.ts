@@ -22,7 +22,20 @@ export class ItemlistComponent {
         new Item('Castelo De Hiroshima', 'Visita a recriação moderna do castelo de Hiroshima, destruído pela bomba atômica em 1945.', 'https://www.japan-guide.com/g21/3042_21.jpg', 30.00),
         new Item('Bar Crawling em Shinjuku', 'Mergulhar na rica vida noturna de Tóquio pode ser intimidante para os visitantes do Japão. Este passeio a pé privado pelo colorido distrito de Shinjuku, repleto de néon, promete uma autêntica experiência japonesa sem a barreira do idioma ou a preocupação com a etiqueta. Seu guia o levará a uma seleção de bares no Golden Gai e a Omoide Yokocho, onde você conhecerá os habitantes locais e aprenderá tudo sobre a cultura de bebida de Tóquio.', 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/bf/10/07.jpg', 407.58),
         new Item('Tokyo Skytree', 'Visita na Tokyo Skytree, uma torre de transmissão e observação em Sumida, Tóquio. Em sua inauguração em 2011 era a torre mais alta do mundo, com 634 metros.', 'https://www.japan-guide.com/g18/3064_01a.jpg', 104.00),
-        // new Item('nome', 'descricao', 'https://www.imagem.jpg', 10.00),
+        new Item('Shinagawa Tobu Hotel', 'Hotel em Tokyo', 'https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002512/img/basic/a0002512_thumbnail.jpg?20201012185539&rw=376', 448.16),
+        new Item('Sotetsu Fresa Inn', 'Hotel em Hiroshima', 'https://ak-d.tripcdn.com/images/0205m120008ozh1y2717D_R_960_660_R5_D.jpg', 318.00),
+        new Item('Y\'s Hotel Shin', 'Hotel em Osaka', 'https://y-s-hotel-shin-osaka-yodogawa-ku-nishinakajima-7-12-2.booked.com.pl/data/Photos/OriginalPhoto/8293/829361/829361162/YS-Hotel-Shin-Osaka-Exterior.JPEG', 266.23),
+        new Item('Via Inn Prime Kyotoeki Hachijoguchi', 'Hotel em Kyoto', 'https://www.viainn.com/datas/cache/images/2021/12/06/1200x780_ea1e9d427fb5664c32c517a73e421e58_e4c4381276bf51c6350b9df9f708bda4772ede47.jpg', 294.50),
+        new Item('Sotetsu Fresa Inn Nagoya-Shinkansenguchi', 'Hotel em Nagoya', 'https://pix10.agoda.net/hotelImages/25764569/-1/1f272cc8b3a3aabbe2ab1ab3dae90e3f.jpg?ca=25&ce=0&s=1024x768', 275.50),
+        new Item('Sotetsu Fresa Inn Tokyo-Kyobashi', 'Hotel em Tokyo', 'https://images.trvl-media.com/lodging/6000000/5550000/5540300/5540260/0cf29128.jpg?impolicy=resizecrop&rw=500&ra=fit', 522.28),
+        new Item('Grand Nikko Tokyo Bay Maihama', 'Hotel na Disney Tokyo', 'https://cf.bstatic.com/xdata/images/hotel/max500/299373116.jpg?k=4f6b6b3c09b4b62ae465efeb2f325bc0c9fb48f94b42203c07b8c8ea766cdbae&o=&hp=1', 698.45),
+        new Item('Hotel JAL City Haneda Tokyo West Wing', 'Hotel em Tokyo', 'https://d3g2yh83to8qa2.cloudfront.net/wp-content/uploads/sites/86/2016/04/09021502/entrance_990x5901.jpg', 488),
+        new Item('Shinkansen Tokyo-Hiroshima', 'Passagem de trem bala', 'https://www.japanhouselondon.uk/assets/New-Discover-page/_resampled/FillWyI3MjgiLCI0MDgiXQ/Shinkansen-Landing-page-banner.jpg', 800.00),
+        new Item('Shinkansen Hiroshima-Osaka', 'Passagem de trem bala', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxbet9UnvZHtK_d4y-OAg6E7I-RRIHiz6Rbg&usqp=CAU', 400.00),
+        new Item('Shinkansen Osaka-Kyoto', 'Passagem de trem bala', 'https://www.snowmonkeyresorts.com/wp-content/uploads/2022/03/22943228_m.jpg', 20.00),
+        new Item('Shinkansen Kyoto-Nagoya', 'Passagem de trem bala', 'https://www.jreast.co.jp/e/shinkansen/assets/image-hero-d.jpg', 240.00),
+        new Item('Kintetsu Nagoya-Suzuka', 'Passagem de trem (esse não é bala)', 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Kintetsu21020Series03.jpg', 50.00),
+        new Item('Shinkansen Nagoya-Tokyo', 'Passagem de trem bala', 'http://www.shinkansentrains.com/uploads/8/0/9/1/80912512/shinkansen-5237269-1920-min_orig.jpg', 400.00),
     ];
 
     constructor() {}
