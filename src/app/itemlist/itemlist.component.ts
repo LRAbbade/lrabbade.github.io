@@ -35,13 +35,13 @@ export class ItemlistComponent {
         new Item('Shinkansen Osaka-Kyoto', 'Passagem de trem bala', 'https://www.snowmonkeyresorts.com/wp-content/uploads/2022/03/22943228_m.jpg', 20.00),
         new Item('Shinkansen Kyoto-Nagoya', 'Passagem de trem bala', 'https://www.jreast.co.jp/e/shinkansen/assets/image-hero-d.jpg', 240.00),
         new Item('Kintetsu Nagoya-Suzuka', 'Passagem de trem (esse não é bala)', 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Kintetsu21020Series03.jpg', 50.00),
-        new Item('Shinkansen Nagoya-Tokyo', 'Passagem de trem bala', 'http://www.shinkansentrains.com/uploads/8/0/9/1/80912512/shinkansen-5237269-1920-min_orig.jpg', 400.00),
+        new Item('Shinkansen Nagoya-Tokyo', 'Passagem de trem bala', 'http://www.shinkansentrains.com/uploads/8/0/9/1/80912512/shinkansen-5237269-1920-min_orig.jpg', 400.00)
     ];
 
     constructor() {}
 
     onItemClicked(itemRef: SelectedItem) {
         itemRef.ref?.nativeElement.scrollIntoView({ behavior: 'smooth' });
-        console.log(itemRef.item);
+        // console.log(itemRef.item);
     }
 }

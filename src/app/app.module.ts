@@ -5,17 +5,21 @@ import { ItemlistComponent } from './itemlist/itemlist.component';
 import { ItemComponent } from './itemlist/item/item.component';
 import { HeaderComponent } from './header/header.component';
 import { QRCodeModule } from 'angularx-qrcode';
+import { CustomItemComponent } from './itemlist/custom-item/custom-item.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemlistComponent,
     ItemComponent,
-    HeaderComponent
+    HeaderComponent,
+    CustomItemComponent
   ],
   imports: [
     BrowserModule,
-    QRCodeModule
+    QRCodeModule,
+    FormsModule
   ],
   providers: [
   ],
